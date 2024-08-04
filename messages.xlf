@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="fr-FR" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="introductionHeader" datatype="html">
+        <source> Bienvenue, sur cette application
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">2,6</context>
+        </context-group>
+        <note priority="1" from="description">An introduction header for this sample</note>
+        <note priority="1" from="meaning">User welcome</note>
+      </trans-unit>
+      <trans-unit id="994332838872026628" datatype="html">
+        <source>On afficher rien ici</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7307681030947344731" datatype="html">
+        <source> Enregistrer </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8649425112928628936" datatype="html">
+        <source>Mis a jour <x id="ICU" equiv-text="{minutes, plural, =0 {a l&apos;instant} =1 {il y a une minute} other { il y a {{ minutes }} minutes}}" xid="809824096014621239"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8,10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7434858805320124820" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {a l&apos;instant} =1 {il y a une minute} other {il y a <x id="INTERPOLATION"/> minutes}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1273256312485709821" datatype="html">
+        <source>L&apos;auteur est <x id="ICU" equiv-text="{gender, select, male {um male} female {une femelle} other {other}}" xid="6053539013029315164"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">14,16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6053539013029315164" datatype="html">
+        <source>{VAR_SELECT, select, male {um male} female {une femelle} other {other}}</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
